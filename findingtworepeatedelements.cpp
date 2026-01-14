@@ -34,9 +34,10 @@ void twoRepeating(int A[], int size, int n) {
 int main() {
     int A[] = {1, 4, 5, 6, 3, 2, 5, 2};
     int size = sizeof(A) / sizeof(A[0]);
-    int n = 6;
+    int n = size-2;
 
     twoRepeating(A, size, n);
 
     return 0;
 }
+
